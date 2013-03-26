@@ -1,0 +1,65 @@
+/*!
+ * Custom CSS
+ *
+ * Copyright 2013 Matt DuPre
+ *
+ * Designed and built by Matt DuPre.
+ */
+
+.navbar {
+color: #393939
+left: 50%;
+}
+
+.nav {
+color: #393939;
+left margin-left: 50%;
+
+
+}
+
+ .navbar-inner {
+  min-height: 0px;
+  max-height: 250px;  
+  background-color: #CC9999;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: 1px solid #d4d4d4;
+}
+
+ .header {
+ 	font-family: 'Molle', cursive;
+ 	color: darkblue;
+ 	text-align: left;
+ 	margin-top: 200px;
+ 	margin-left: 450px;
+
+ }
+
+.sub-header {
+	position: absolute;
+	color: darkred;
+	text-align: left;
+	text-transform: lowercase;
+	margin-left: 615px;
+}
+
+.image {
+	height: auto; 
+	width: auto; 
+	max-height: 250px; 
+	max-width: 250px;
+	position: fixed;
+	left: 800px;
+	bottom: 480px;
+}
+
+.paragraph {
+	font-family: 'Special Elite', cursive;
+	color: blue;
+	font-size: 18px;
+	position: fixed;
+	left: 300px;
+	bottom: 75px;
+	max-width: 300px;
+}
