@@ -7,27 +7,28 @@
  */
 
 .navbar {
-color: #393939
-left: 50%;
+color: #393939;
+
 }
 
 .nav {
 color: #393939;
-left margin-left: 50%;
+text decoration: none;
 
 
 }
 
- .navbar-inner {
+.navbar-inner {
   min-height: 0px;
   max-height: 250px;  
   background-color: #CC9999;
   background-image: none;
   background-repeat: no-repeat;
   border: 1px solid #d4d4d4;
+
 }
 
- .header {
+.header {
  	font-family: 'Molle', cursive;
  	color: darkblue;
  	text-align: left;
@@ -41,7 +42,7 @@ left margin-left: 50%;
 	color: darkred;
 	text-align: left;
 	text-transform: lowercase;
-	margin-left: 615px;
+	margin-left: 450px;
 }
 
 .image {
@@ -59,7 +60,7 @@ left margin-left: 50%;
 	color: blue;
 	font-size: 18px;
 	position: fixed;
-	left: 300px;
-	bottom: 75px;
-	max-width: 300px;
+	margin-left: 475px;
+	bottom: 275px;
+	max-width: 400px;
 }
