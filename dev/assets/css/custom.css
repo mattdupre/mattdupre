@@ -6,15 +6,19 @@
  * Designed and built by Matt DuPre.
  */
 
-.navbar {
-color: #393939;
-
+.main_image {
+	display: block;
+	margin: auto;
+	height: auto; 
+	width: auto; 
+	max-height: 300px; 
+	max-width: 300px;
 }
 
 .nav {
-color: #393939;
-text decoration: none;
-
+  color: #393939;
+  
+  text-align: center;
 
 }
 
@@ -30,37 +34,26 @@ text decoration: none;
 
 .header {
  	font-family: 'Molle', cursive;
- 	color: darkblue;
- 	text-align: left;
- 	margin-top: 200px;
- 	margin-left: 450px;
-
+ 	text-align: center;
+ 	
  }
 
 .sub-header {
-	position: absolute;
 	color: darkred;
-	text-align: left;
-	text-transform: lowercase;
-	margin-left: 450px;
+	text-align: center;
 }
 
-.image {
-	height: auto; 
-	width: auto; 
-	max-height: 250px; 
-	max-width: 250px;
-	position: fixed;
-	left: 800px;
-	bottom: 480px;
-}
-
-.paragraph {
+.p1, .p2 {
 	font-family: 'Special Elite', cursive;
-	color: blue;
+	color: black;
 	font-size: 18px;
-	position: fixed;
-	margin-left: 475px;
-	bottom: 275px;
-	max-width: 400px;
+	max-width: 500px;
+text-align: center;
+	margin: auto;
+	padding: 25px;
+}
+
+.p2 {
+	padding: 10px;
+
 }
